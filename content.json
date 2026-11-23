@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-11-21",
+  "version": 3,
+  "updatedAt": "2026-11-22",
   "categories": [
     {
       "id": "collectible",
@@ -223,6 +223,86 @@
       "y": 88,
       "ax": 82,
       "ay": 62,
+      "pro": true
+    },
+    {
+      "id": "b1",
+      "category": "shop",
+      "title": "Pay 'n' Spray, Hamlet",
+      "description": "Hot car? Drive in for a respray and the cops lose track of you. Pay 'n' Spray also repairs cars and registers ones you want to keep. 19 shops across Leonida, 5 around Vice City.",
+      "region": "Vice City",
+      "x": 64,
+      "y": 86,
+      "ax": 60,
+      "ay": 64.5
+    },
+    {
+      "id": "b2",
+      "category": "money",
+      "title": "Key Lento bank",
+      "description": "A small bank in the Keys, close to Jason's home. Low payout (about $5K–$20K) but a good first bank job. Bank cash comes out as marked bills, so sell it to a fence.",
+      "region": "Leonida Keys",
+      "x": 32,
+      "y": 92,
+      "ax": 30,
+      "ay": 77
+    },
+    {
+      "id": "b3",
+      "category": "shop",
+      "title": "Persistence Road Garage",
+      "description": "Garage in western Bellville, north of Vice City. Buy it through the Vice City Real Estate app once Chapter 2 unlocks it.",
+      "region": "Vice City",
+      "x": 70,
+      "y": 74,
+      "ax": 68,
+      "ay": 46
+    },
+    {
+      "id": "b4",
+      "category": "secret",
+      "title": "How to lose the cops",
+      "description": "Break line of sight first: get out of the search cones on your minimap. Then head to a Pay 'n' Spray and respray, or swap cars.",
+      "region": "Vice City",
+      "x": 72,
+      "y": 78,
+      "ax": 66,
+      "ay": 50.5
+    },
+    {
+      "id": "pro5",
+      "category": "money",
+      "title": "Bank job money route",
+      "description": "Leonida has 22 bank jobs: 14 small banks and 8 big vaults. Start small in the Keys, then work up to the big vaults in Ocean Beach and Downtown Vice City, which pay six figures. All bank cash is marked bills, and Yasmani in Little Cuba pays the most for them.",
+      "region": "Vice City",
+      "x": 82,
+      "y": 84,
+      "ax": 77,
+      "ay": 64,
+      "pro": true
+    },
+    {
+      "id": "pro6",
+      "category": "money",
+      "title": "Garage buying order",
+      "description": "Garages are the only property you can buy. From Chapter 2, open the Vice City Real Estate app. There are 8 for sale, from $4K to $40K (about $160K for all). Buy cheap ones first for storage, then a Vice City garage close to the action.",
+      "region": "Vice City",
+      "x": 74,
+      "y": 72,
+      "ax": 73,
+      "ay": 47.5,
+      "pro": true
+    },
+    {
+      "id": "pro7",
+      "category": "secret",
+      "title": "Bank cash, fast",
+      "description": "Don't drive marked bills around. Once Yasmani is unlocked in Chapter 3, drop the loot at your nearest garage and send it to him. Your partner sells it while you start the next job.",
+      "region": "Vice City",
+      "x": 79,
+      "y": 80,
+      "ax": 80,
+      "ay": 55,
       "pro": true
     }
   ],
