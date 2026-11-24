@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updatedAt": "2026-11-22",
+  "version": 4,
+  "updatedAt": "2026-11-24",
   "categories": [
     {
       "id": "collectible",
@@ -303,6 +303,76 @@
       "y": 80,
       "ax": 80,
       "ay": 55,
+      "pro": true
+    },
+    {
+      "id": "d1",
+      "category": "secret",
+      "title": "Jason's cash stash",
+      "description": "Before you unlock the BuckMe bank app, hide cash under the loose floorboards in Jason's bedroom at his Key Lento stilt house. Walk into the bedroom and look for the prompt to inspect the floorboards.",
+      "region": "Leonida Keys",
+      "x": 27,
+      "y": 93,
+      "ax": 39,
+      "ay": 73.5
+    },
+    {
+      "id": "d2",
+      "category": "money",
+      "title": "Don't die holding cash",
+      "description": "Cash in your pocket is gone if you die or get busted. Deposit it in BuckMe (unlocks in Chapter 1) or at an ATM before any risky job. Heads up: Family Savings can't be withdrawn.",
+      "region": "Vice City",
+      "x": 75,
+      "y": 83,
+      "ax": 74,
+      "ay": 58
+    },
+    {
+      "id": "pro8",
+      "category": "secret",
+      "title": "Dye Pack Jammer first",
+      "description": "Don't rob a bank or payday loan store yet. Fences refuse marked bills until you get the Dye Pack Jammer from the Chapter 3 mission Credit Check (Meet Raul's Crew).",
+      "region": "Vice City",
+      "x": 77,
+      "y": 81,
+      "ax": 76,
+      "ay": 60,
+      "pro": true
+    },
+    {
+      "id": "pro9",
+      "category": "money",
+      "title": "Vault payday",
+      "description": "Big bank vaults pay up to about $205,000 in marked bills, but you get 4 wanted stars the moment you start. Have your escape car ready, then sell the bills to Yasmani in Little Cuba.",
+      "region": "Vice City",
+      "x": 81,
+      "y": 78,
+      "ax": 83,
+      "ay": 50,
+      "pro": true
+    },
+    {
+      "id": "pro10",
+      "category": "money",
+      "title": "Gang hideouts",
+      "description": "Yellow hideout icons on your map are gang stash houses (Illegal Operations). Each holds cash, jewelry or drugs, worth about $1,000 to $2,000 early on. Sell drugs and jewelry to a fence.",
+      "region": "Leonida Keys",
+      "x": 31,
+      "y": 93,
+      "ax": 17,
+      "ay": 82.5,
+      "pro": true
+    },
+    {
+      "id": "pro11",
+      "category": "secret",
+      "title": "Crack any store safe",
+      "description": "Safe codes are random every time, so online code lists won't work. Look for a sticky note, papers or a computer screen in the back office, check downed guards, or make staff tell you.",
+      "region": "Vice City",
+      "x": 67,
+      "y": 87,
+      "ax": 61,
+      "ay": 61,
       "pro": true
     }
   ],
