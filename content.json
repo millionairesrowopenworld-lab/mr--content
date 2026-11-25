@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updatedAt": "2026-11-24",
   "categories": [
     {
@@ -373,6 +373,76 @@
       "y": 87,
       "ax": 61,
       "ay": 61,
+      "pro": true
+    },
+    {
+      "id": "d3",
+      "category": "secret",
+      "title": "Red stars aren't safe",
+      "description": "Red stars mean you escaped the chase but you're still inside the police search area. Leave the red zone on your map, change clothes or swap cars, and don't come back to that block until it fades.",
+      "region": "Vice City",
+      "x": 74,
+      "y": 82,
+      "ax": 67,
+      "ay": 57
+    },
+    {
+      "id": "d4",
+      "category": "secret",
+      "title": "Sell early, Keys fences close",
+      "description": "Brian and Donnie, the first fences in the Keys, are early-story only and pay very low. Don't stockpile loot for them; Dunk, Tyrone and Yasmani stay open for good.",
+      "region": "Leonida Keys",
+      "x": 33,
+      "y": 94,
+      "ax": 35,
+      "ay": 77
+    },
+    {
+      "id": "pro12",
+      "category": "money",
+      "title": "Hideout drugs to Tyrone",
+      "description": "Drugs you take from gang hideouts sell best to Tyrone in La Perle (unlocks in Chapter 3), who pays the top rate for narcotics. Early fences pay low for the same bag.",
+      "region": "Vice City",
+      "x": 76,
+      "y": 79,
+      "ax": 71,
+      "ay": 52,
+      "pro": true
+    },
+    {
+      "id": "pro13",
+      "category": "money",
+      "title": "Jewelry to Yasmani",
+      "description": "Jewelry store robberies open through Yasmani's jobs in Chapter 3, and Yasmani in Little Cuba pays the top rate for jewelry. Don't sell to the nearest fence.",
+      "region": "Vice City",
+      "x": 80,
+      "y": 82,
+      "ax": 84,
+      "ay": 56,
+      "pro": true
+    },
+    {
+      "id": "pro14",
+      "category": "secret",
+      "title": "Moses only takes clean cars",
+      "description": "Moses in Port Gellhorn buys stolen cars only if they have no tracker. Scan the car with the WAINK app on your phone before you drive it over.",
+      "region": "Port Gellhorn",
+      "x": 21,
+      "y": 31,
+      "ax": 17,
+      "ay": 45,
+      "pro": true
+    },
+    {
+      "id": "pro15",
+      "category": "money",
+      "title": "Follow the cash truck in",
+      "description": "Bank vaults only open when a cash truck arrives, so wait for the delivery and enter the vault while it's open. Get the Dye Pack Jammer first (see the Dye Pack pin).",
+      "region": "Vice City",
+      "x": 79,
+      "y": 77,
+      "ax": 81,
+      "ay": 47,
       "pro": true
     }
   ],
