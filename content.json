@@ -1,552 +1,622 @@
 {
-  "version": 5,
-  "updatedAt": "2026-11-24",
-  "categories": [
+ "version": 6,
+ "updatedAt": "2026-11-28",
+ "categories": [
+  {
+   "id": "collectible",
+   "label": "Collectibles",
+   "color": "#FFC53D",
+   "icon": "★"
+  },
+  {
+   "id": "money",
+   "label": "Money",
+   "color": "#3DFF9A",
+   "icon": "$"
+  },
+  {
+   "id": "mission",
+   "label": "Missions",
+   "color": "#FF2E88",
+   "icon": "!"
+  },
+  {
+   "id": "shop",
+   "label": "Shops",
+   "color": "#19F0D8",
+   "icon": "◆"
+  },
+  {
+   "id": "secret",
+   "label": "Secrets",
+   "color": "#9D6BFF",
+   "icon": "?"
+  }
+ ],
+ "regions": [
+  {
+   "name": "Vice City",
+   "x": 73,
+   "y": 85,
+   "ax": 74,
+   "ay": 40
+  },
+  {
+   "name": "Leonida Keys",
+   "x": 28,
+   "y": 92,
+   "ax": 30,
+   "ay": 70
+  },
+  {
+   "name": "Grassrivers",
+   "x": 50,
+   "y": 62,
+   "ax": 52,
+   "ay": 31.5
+  },
+  {
+   "name": "Port Gellhorn",
+   "x": 22,
+   "y": 34,
+   "ax": 21,
+   "ay": 34
+  },
+  {
+   "name": "Ambrosia",
+   "x": 37,
+   "y": 42,
+   "ax": 44,
+   "ay": 19
+  },
+  {
+   "name": "Mount Kalaga",
+   "x": 68,
+   "y": 25,
+   "ax": 66,
+   "ay": 10
+  }
+ ],
+ "pins": [
+  {
+   "id": "k1",
+   "category": "money",
+   "title": "Kenton's dive shop",
+   "description": "Kenton's beach shop on Key Lento, Mariana County. Finish the Chapter 1 story mission \"Island Dreams\" here to unlock treasure diving, one of the best early money makers.",
+   "region": "Leonida Keys",
+   "x": 30,
+   "y": 90,
+   "ax": 33,
+   "ay": 74
+  },
+  {
+   "id": "k2",
+   "category": "collectible",
+   "title": "Treasure dive sites",
+   "description": "After Island Dreams, purple chest icons mark shipwreck dive sites around the Keys. Take Kenton's boat out and dive with scuba gear and a metal detector.",
+   "region": "Leonida Keys",
+   "x": 34,
+   "y": 95,
+   "ax": 38,
+   "ay": 80
+  },
+  {
+   "id": "f1",
+   "category": "money",
+   "title": "Moses: car buyer",
+   "description": "Moses buys stolen cars in Port Gellhorn, Kelly County. Unlocks in Chapter 2. Cars with a tracker won't sell here, so pick older models.",
+   "region": "Port Gellhorn",
+   "x": 24,
+   "y": 30,
+   "ax": 15,
+   "ay": 42
+  },
+  {
+   "id": "f2",
+   "category": "money",
+   "title": "Tyrone: fence",
+   "description": "Fence in La Perle, Vice City, from Chapter 3. Pays the most for narcotics.",
+   "region": "Vice City",
+   "x": 70,
+   "y": 80,
+   "ax": 70,
+   "ay": 55
+  },
+  {
+   "id": "f3",
+   "category": "money",
+   "title": "Yasmani: fence",
+   "description": "Fence in Little Cuba, Vice City, from Chapter 3. Pays the most for jewelry and marked bills.",
+   "region": "Vice City",
+   "x": 78,
+   "y": 82,
+   "ax": 86,
+   "ay": 57
+  },
+  {
+   "id": "g1",
+   "category": "shop",
+   "title": "Hamlet gun store",
+   "description": "Gun store in Hamlet, Vice-Dale County, on the city's edge. Weapons, ammo and body armor.",
+   "region": "Vice City",
+   "x": 66,
+   "y": 88,
+   "ax": 64,
+   "ay": 62
+  },
+  {
+   "id": "g2",
+   "category": "shop",
+   "title": "Pawn & Gun, Port Gellhorn",
+   "description": "Pawn and gun store in Port Gellhorn, Kelly County. Handy before missions up the coast.",
+   "region": "Port Gellhorn",
+   "x": 20,
+   "y": 28,
+   "ax": 19,
+   "ay": 38
+  },
+  {
+   "id": "m1",
+   "category": "shop",
+   "title": "Rideout Customs",
+   "description": "Vice City mod shop for custom rims, interiors and show-car builds. Ultimate Edition owners only.",
+   "region": "Vice City",
+   "x": 72,
+   "y": 86,
+   "ax": 63,
+   "ay": 59
+  },
+  {
+   "id": "m2",
+   "category": "shop",
+   "title": "One-Eyed Willie's",
+   "description": "Off-road mod shop at Lake Leonida with hand-painted finishes. Ultimate Edition owners only.",
+   "region": "Ambrosia",
+   "x": 40,
+   "y": 40,
+   "ax": 40,
+   "ay": 24
+  },
+  {
+   "id": "pro1",
+   "category": "money",
+   "title": "Treasure diving playbook",
+   "description": "Seven shipwreck sets around the Keys, each worth tens of thousands. Five count toward 100%, and all seven complete Underwater Discoveries. Dive in daylight, sweep the detector slowly, surface before oxygen runs out, and sell to Kenton after every set.",
+   "region": "Leonida Keys",
+   "x": 26,
+   "y": 88,
+   "ax": 28,
+   "ay": 72,
+   "pro": true
+  },
+  {
+   "id": "pro2",
+   "category": "money",
+   "title": "Randy: high-end cars",
+   "description": "Randy in Balsero, Vice City, buys high-end cars that carry advanced trackers. Unlocks in Chapter 3 after the mission where you steal the Zorrusso for him. Your best payout for stolen cars.",
+   "region": "Vice City",
+   "x": 76,
+   "y": 76,
+   "ax": 78,
+   "ay": 52,
+   "pro": true
+  },
+  {
+   "id": "pro3",
+   "category": "secret",
+   "title": "Fence cheat sheet",
+   "description": "Don't sell everything to one buyer. Narcotics go to Tyrone in La Perle; jewelry and marked bills go to Yasmani in Little Cuba. Early fences in the Keys pay very little, so hold your loot until Chapter 3 if you can.",
+   "region": "Vice City",
+   "x": 68,
+   "y": 84,
+   "ax": 57,
+   "ay": 64,
+   "pro": true
+  },
+  {
+   "id": "pro4",
+   "category": "secret",
+   "title": "Garage drop-off trick",
+   "description": "From Chapter 3, once Yasmani is unlocked, drop stolen goods at your nearest garage and pick which fence buys them. Your partner drives off and sells them for you. No more long drives across the map.",
+   "region": "Vice City",
+   "x": 80,
+   "y": 88,
+   "ax": 82,
+   "ay": 62,
+   "pro": true
+  },
+  {
+   "id": "b1",
+   "category": "shop",
+   "title": "Pay 'n' Spray, Hamlet",
+   "description": "Hot car? Drive in for a respray and the cops lose track of you. Pay 'n' Spray also repairs cars and registers ones you want to keep. 19 shops across Leonida, 5 around Vice City.",
+   "region": "Vice City",
+   "x": 64,
+   "y": 86,
+   "ax": 60,
+   "ay": 64.5
+  },
+  {
+   "id": "b2",
+   "category": "money",
+   "title": "Key Lento bank",
+   "description": "A small bank in the Keys, close to Jason's home. Low payout (about $5K–$20K) but a good first bank job. Bank cash comes out as marked bills, so sell it to a fence.",
+   "region": "Leonida Keys",
+   "x": 32,
+   "y": 92,
+   "ax": 30,
+   "ay": 77
+  },
+  {
+   "id": "b3",
+   "category": "shop",
+   "title": "Persistence Road Garage",
+   "description": "Garage in western Bellville, north of Vice City. Buy it through the Vice City Real Estate app once Chapter 2 unlocks it.",
+   "region": "Vice City",
+   "x": 70,
+   "y": 74,
+   "ax": 68,
+   "ay": 46
+  },
+  {
+   "id": "b4",
+   "category": "secret",
+   "title": "How to lose the cops",
+   "description": "Break line of sight first: get out of the search cones on your minimap. Then head to a Pay 'n' Spray and respray, or swap cars.",
+   "region": "Vice City",
+   "x": 72,
+   "y": 78,
+   "ax": 66,
+   "ay": 50.5
+  },
+  {
+   "id": "pro5",
+   "category": "money",
+   "title": "Bank job money route",
+   "description": "Leonida has 22 bank jobs: 14 small banks and 8 big vaults. Start small in the Keys, then work up to the big vaults in Ocean Beach and Downtown Vice City, which pay six figures. All bank cash is marked bills, and Yasmani in Little Cuba pays the most for them.",
+   "region": "Vice City",
+   "x": 82,
+   "y": 84,
+   "ax": 77,
+   "ay": 64,
+   "pro": true
+  },
+  {
+   "id": "pro6",
+   "category": "money",
+   "title": "Garage buying order",
+   "description": "Garages are the only property you can buy. From Chapter 2, open the Vice City Real Estate app. There are 8 for sale, from $4K to $40K (about $160K for all). Buy cheap ones first for storage, then a Vice City garage close to the action.",
+   "region": "Vice City",
+   "x": 74,
+   "y": 72,
+   "ax": 73,
+   "ay": 47.5,
+   "pro": true
+  },
+  {
+   "id": "pro7",
+   "category": "secret",
+   "title": "Bank cash, fast",
+   "description": "Don't drive marked bills around. Once Yasmani is unlocked in Chapter 3, drop the loot at your nearest garage and send it to him. Your partner sells it while you start the next job.",
+   "region": "Vice City",
+   "x": 79,
+   "y": 80,
+   "ax": 80,
+   "ay": 55,
+   "pro": true
+  },
+  {
+   "id": "d1",
+   "category": "secret",
+   "title": "Jason's cash stash",
+   "description": "Before you unlock the BuckMe bank app, hide cash under the loose floorboards in Jason's bedroom at his Key Lento stilt house. Walk into the bedroom and look for the prompt to inspect the floorboards.",
+   "region": "Leonida Keys",
+   "x": 27,
+   "y": 93,
+   "ax": 39,
+   "ay": 73.5
+  },
+  {
+   "id": "d2",
+   "category": "money",
+   "title": "Don't die holding cash",
+   "description": "Cash in your pocket is gone if you die or get busted. Deposit it in BuckMe (unlocks in Chapter 1) or at an ATM before any risky job. Heads up: Family Savings can't be withdrawn.",
+   "region": "Vice City",
+   "x": 75,
+   "y": 83,
+   "ax": 74,
+   "ay": 58
+  },
+  {
+   "id": "pro8",
+   "category": "secret",
+   "title": "Dye Pack Jammer first",
+   "description": "Don't rob a bank or payday loan store yet. Fences refuse marked bills until you get the Dye Pack Jammer from the Chapter 3 mission Credit Check (Meet Raul's Crew).",
+   "region": "Vice City",
+   "x": 77,
+   "y": 81,
+   "ax": 76,
+   "ay": 60,
+   "pro": true
+  },
+  {
+   "id": "pro9",
+   "category": "money",
+   "title": "Vault payday",
+   "description": "Big bank vaults pay up to about $205,000 in marked bills, but you get 4 wanted stars the moment you start. Have your escape car ready, then sell the bills to Yasmani in Little Cuba.",
+   "region": "Vice City",
+   "x": 81,
+   "y": 78,
+   "ax": 83,
+   "ay": 50,
+   "pro": true
+  },
+  {
+   "id": "pro10",
+   "category": "money",
+   "title": "Gang hideouts",
+   "description": "Yellow hideout icons on your map are gang stash houses (Illegal Operations). Each holds cash, jewelry or drugs, worth about $1,000 to $2,000 early on. Sell drugs and jewelry to a fence.",
+   "region": "Leonida Keys",
+   "x": 31,
+   "y": 93,
+   "ax": 17,
+   "ay": 82.5,
+   "pro": true
+  },
+  {
+   "id": "pro11",
+   "category": "secret",
+   "title": "Crack any store safe",
+   "description": "Safe codes are random every time, so online code lists won't work. Look for a sticky note, papers or a computer screen in the back office, check downed guards, or make staff tell you.",
+   "region": "Vice City",
+   "x": 67,
+   "y": 87,
+   "ax": 61,
+   "ay": 61,
+   "pro": true
+  },
+  {
+   "id": "d3",
+   "category": "secret",
+   "title": "Red stars aren't safe",
+   "description": "Red stars mean you escaped the chase but you're still inside the police search area. Leave the red zone on your map, change clothes or swap cars, and don't come back to that block until it fades.",
+   "region": "Vice City",
+   "x": 74,
+   "y": 82,
+   "ax": 67,
+   "ay": 57
+  },
+  {
+   "id": "d4",
+   "category": "secret",
+   "title": "Sell early, Keys fences close",
+   "description": "Brian and Donnie, the first fences in the Keys, are early-story only and pay very low. Don't stockpile loot for them; Dunk, Tyrone and Yasmani stay open for good.",
+   "region": "Leonida Keys",
+   "x": 33,
+   "y": 94,
+   "ax": 35,
+   "ay": 77
+  },
+  {
+   "id": "pro12",
+   "category": "money",
+   "title": "Hideout drugs to Tyrone",
+   "description": "Drugs you take from gang hideouts sell best to Tyrone in La Perle (unlocks in Chapter 3), who pays the top rate for narcotics. Early fences pay low for the same bag.",
+   "region": "Vice City",
+   "x": 76,
+   "y": 79,
+   "ax": 71,
+   "ay": 52,
+   "pro": true
+  },
+  {
+   "id": "pro13",
+   "category": "money",
+   "title": "Jewelry to Yasmani",
+   "description": "Jewelry store robberies open through Yasmani's jobs in Chapter 3, and Yasmani in Little Cuba pays the top rate for jewelry. Don't sell to the nearest fence.",
+   "region": "Vice City",
+   "x": 80,
+   "y": 82,
+   "ax": 84,
+   "ay": 56,
+   "pro": true
+  },
+  {
+   "id": "pro14",
+   "category": "secret",
+   "title": "Moses only takes clean cars",
+   "description": "Moses in Port Gellhorn buys stolen cars only if they have no tracker. Scan the car with the WAINK app on your phone before you drive it over.",
+   "region": "Port Gellhorn",
+   "x": 21,
+   "y": 31,
+   "ax": 17,
+   "ay": 45,
+   "pro": true
+  },
+  {
+   "id": "pro15",
+   "category": "money",
+   "title": "Follow the cash truck in",
+   "description": "Bank vaults only open when a cash truck arrives, so wait for the delivery and enter the vault while it's open. Get the Dye Pack Jammer first (see the Dye Pack pin).",
+   "region": "Vice City",
+   "x": 79,
+   "y": 77,
+   "ax": 81,
+   "ay": 47,
+   "pro": true
+  },
+  {
+   "id": "e1",
+   "category": "secret",
+   "title": "Chapter 1 cash gets wiped",
+   "region": "Leonida Keys",
+   "ax": 36.5,
+   "ay": 75.5,
+   "x": 29,
+   "y": 92,
+   "description": "Whatever cash you build up in Chapter 1 is gone when the chapter ends. Don't grind for money early. Push the story and save your big money runs for Chapter 2 and later."
+  },
+  {
+   "id": "e2",
+   "category": "money",
+   "title": "Plane crash loot",
+   "region": "Grassrivers",
+   "ax": 50,
+   "ay": 34,
+   "x": 50,
+   "y": 64,
+   "description": "See a plane trailing smoke over Grassrivers? Chase it to the wreck. Most crash sites have about $1,000 in product on the ground, plus a flare gun on a nearby body. Rival crews and cops show up within minutes, so grab it and go."
+  },
+  {
+   "id": "pro16",
+   "category": "money",
+   "title": "Exotic Animals Front stash",
+   "region": "Leonida Keys",
+   "ax": 32,
+   "ay": 75.5,
+   "x": 31,
+   "y": 91,
+   "pro": true,
+   "description": "Do your neighbor Shirley's errand: buy her rum at the Key Lento liquor store. Come back, climb the fence beside the store into the courtyard and clear the yard. The parrot tips you off: about $1,300 is in the vent by the generator. The backroom safe holds about $900 and the register $100, roughly $2,300 total."
+  },
+  {
+   "id": "pro17",
+   "category": "money",
+   "title": "Vice-Dale warehouse jackpot",
+   "region": "Vice City",
+   "ax": 58,
+   "ay": 68,
+   "x": 63,
+   "y": 89,
+   "pro": true,
+   "description": "A free-roam warehouse about three miles south of Hamlet, worth roughly $13,000 in cash and product. The office safe holds a rare Leroy Rook card that a pawn shop buys for about $6,000. It's heavily guarded and the cops come fast, so park a quick getaway car outside. Weapons inside: Type 9 SMG by the entrance, Duke 556 rifle near a body, Kalinga 50 pistol in the office."
+  },
+  {
+   "id": "pro18",
+   "category": "money",
+   "title": "Tiger motel safe",
+   "region": "Vice City",
+   "ax": 62,
+   "ay": 67.5,
+   "x": 66,
+   "y": 90,
+   "pro": true,
+   "description": "Rundown motel south of Hamlet. Follow the screaming. There's a loose tiger inside. Get past it and the safe holds over $1,000, with about $640 in product on a nearby table. The weapon case has the Laird 350 sniper rifle."
+  },
+  {
+   "id": "pro19",
+   "category": "money",
+   "title": "Stalled-car stash bags",
+   "region": "Grassrivers",
+   "ax": 43,
+   "ay": 45,
+   "x": 45,
+   "y": 70,
+   "pro": true,
+   "description": "Stop for drivers with broken-down cars anywhere in Leonida. If they tell you to get lost, the car is a front. Check the trunk for a duffel with about $1,280 in product. It's repeatable. Sell at Brian's Lockup, which pays into your mailbox the next day."
+  }
+ ],
+ "checklists": [
+  {
+   "id": "launch",
+   "title": "Launch Day Prep",
+   "description": "Get ready before Nov 19.",
+   "items": [
     {
-      "id": "collectible",
-      "label": "Collectibles",
-      "color": "#FFC53D",
-      "icon": "★"
+     "id": "l1",
+     "title": "Pre-order or pre-load the game",
+     "hint": "Pre-loading means you can play the minute it unlocks."
     },
     {
-      "id": "money",
-      "label": "Money",
-      "color": "#3DFF9A",
-      "icon": "$"
+     "id": "l2",
+     "title": "Free up console storage",
+     "hint": "Open-world games are huge — clear space early."
     },
     {
-      "id": "mission",
-      "label": "Missions",
-      "color": "#FF2E88",
-      "icon": "!"
+     "id": "l3",
+     "title": "Update your console and controller",
+     "hint": "Avoid a surprise system update at midnight."
     },
     {
-      "id": "shop",
-      "label": "Shops",
-      "color": "#19F0D8",
-      "icon": "◆"
+     "id": "l4",
+     "title": "Set up clip capture",
+     "hint": "Turn on game capture so you can save your best moments."
     },
     {
-      "id": "secret",
-      "label": "Secrets",
-      "color": "#9D6BFF",
-      "icon": "?"
+     "id": "l5",
+     "title": "Check the Millionaire's Row map daily",
+     "hint": "New pins go live as players discover them."
     }
-  ],
-  "regions": [
+   ]
+  },
+  {
+   "id": "collectibles",
+   "title": "Collectibles",
+   "description": "Collectibles and treasure, region by region. New sets added as they are confirmed.",
+   "items": [
     {
-      "name": "Vice City",
-      "x": 73,
-      "y": 85,
-      "ax": 74,
-      "ay": 40
+     "id": "c1",
+     "title": "Unlock treasure diving with Kenton",
+     "hint": "Finish the Chapter 1 mission \"Island Dreams\".",
+     "pinId": "k1"
     },
     {
-      "name": "Leonida Keys",
-      "x": 28,
-      "y": 92,
-      "ax": 30,
-      "ay": 70
-    },
-    {
-      "name": "Grassrivers",
-      "x": 50,
-      "y": 62,
-      "ax": 52,
-      "ay": 31.5
-    },
-    {
-      "name": "Port Gellhorn",
-      "x": 22,
-      "y": 34,
-      "ax": 21,
-      "ay": 34
-    },
-    {
-      "name": "Ambrosia",
-      "x": 37,
-      "y": 42,
-      "ax": 44,
-      "ay": 19
-    },
-    {
-      "name": "Mount Kalaga",
-      "x": 68,
-      "y": 25,
-      "ax": 66,
-      "ay": 10
+     "id": "c2",
+     "title": "Dive your first shipwreck site",
+     "hint": "Look for purple chest icons around the Keys.",
+     "pinId": "k2"
     }
-  ],
-  "pins": [
+   ]
+  },
+  {
+   "id": "story",
+   "title": "Story Missions",
+   "description": "Track your story progress, spoiler-free.",
+   "items": [
     {
-      "id": "k1",
-      "category": "money",
-      "title": "Kenton's dive shop",
-      "description": "Kenton's beach shop on Key Lento, Mariana County. Finish the Chapter 1 story mission \"Island Dreams\" here to unlock treasure diving, one of the best early money makers.",
-      "region": "Leonida Keys",
-      "x": 30,
-      "y": 90,
-      "ax": 33,
-      "ay": 74
-    },
-    {
-      "id": "k2",
-      "category": "collectible",
-      "title": "Treasure dive sites",
-      "description": "After Island Dreams, purple chest icons mark shipwreck dive sites around the Keys. Take Kenton's boat out and dive with scuba gear and a metal detector.",
-      "region": "Leonida Keys",
-      "x": 34,
-      "y": 95,
-      "ax": 38,
-      "ay": 80
-    },
-    {
-      "id": "f1",
-      "category": "money",
-      "title": "Moses: car buyer",
-      "description": "Moses buys stolen cars in Port Gellhorn, Kelly County. Unlocks in Chapter 2. Cars with a tracker won't sell here, so pick older models.",
-      "region": "Port Gellhorn",
-      "x": 24,
-      "y": 30,
-      "ax": 15,
-      "ay": 42
-    },
-    {
-      "id": "f2",
-      "category": "money",
-      "title": "Tyrone: fence",
-      "description": "Fence in La Perle, Vice City, from Chapter 3. Pays the most for narcotics.",
-      "region": "Vice City",
-      "x": 70,
-      "y": 80,
-      "ax": 70,
-      "ay": 55
-    },
-    {
-      "id": "f3",
-      "category": "money",
-      "title": "Yasmani: fence",
-      "description": "Fence in Little Cuba, Vice City, from Chapter 3. Pays the most for jewelry and marked bills.",
-      "region": "Vice City",
-      "x": 78,
-      "y": 82,
-      "ax": 86,
-      "ay": 57
-    },
-    {
-      "id": "g1",
-      "category": "shop",
-      "title": "Hamlet gun store",
-      "description": "Gun store in Hamlet, Vice-Dale County, on the city's edge. Weapons, ammo and body armor.",
-      "region": "Vice City",
-      "x": 66,
-      "y": 88,
-      "ax": 64,
-      "ay": 62
-    },
-    {
-      "id": "g2",
-      "category": "shop",
-      "title": "Pawn & Gun, Port Gellhorn",
-      "description": "Pawn and gun store in Port Gellhorn, Kelly County. Handy before missions up the coast.",
-      "region": "Port Gellhorn",
-      "x": 20,
-      "y": 28,
-      "ax": 19,
-      "ay": 38
-    },
-    {
-      "id": "m1",
-      "category": "shop",
-      "title": "Rideout Customs",
-      "description": "Vice City mod shop for custom rims, interiors and show-car builds. Ultimate Edition owners only.",
-      "region": "Vice City",
-      "x": 72,
-      "y": 86,
-      "ax": 63,
-      "ay": 59
-    },
-    {
-      "id": "m2",
-      "category": "shop",
-      "title": "One-Eyed Willie's",
-      "description": "Off-road mod shop at Lake Leonida with hand-painted finishes. Ultimate Edition owners only.",
-      "region": "Ambrosia",
-      "x": 40,
-      "y": 40,
-      "ax": 40,
-      "ay": 24
-    },
-    {
-      "id": "pro1",
-      "category": "money",
-      "title": "Treasure diving playbook",
-      "description": "Seven shipwreck sets around the Keys, each worth tens of thousands. Five count toward 100%, and all seven complete Underwater Discoveries. Dive in daylight, sweep the detector slowly, surface before oxygen runs out, and sell to Kenton after every set.",
-      "region": "Leonida Keys",
-      "x": 26,
-      "y": 88,
-      "ax": 28,
-      "ay": 72,
-      "pro": true
-    },
-    {
-      "id": "pro2",
-      "category": "money",
-      "title": "Randy: high-end cars",
-      "description": "Randy in Balsero, Vice City, buys high-end cars that carry advanced trackers. Unlocks in Chapter 3 after the mission where you steal the Zorrusso for him. Your best payout for stolen cars.",
-      "region": "Vice City",
-      "x": 76,
-      "y": 76,
-      "ax": 78,
-      "ay": 52,
-      "pro": true
-    },
-    {
-      "id": "pro3",
-      "category": "secret",
-      "title": "Fence cheat sheet",
-      "description": "Don't sell everything to one buyer. Narcotics go to Tyrone in La Perle; jewelry and marked bills go to Yasmani in Little Cuba. Early fences in the Keys pay very little, so hold your loot until Chapter 3 if you can.",
-      "region": "Vice City",
-      "x": 68,
-      "y": 84,
-      "ax": 57,
-      "ay": 64,
-      "pro": true
-    },
-    {
-      "id": "pro4",
-      "category": "secret",
-      "title": "Garage drop-off trick",
-      "description": "From Chapter 3, once Yasmani is unlocked, drop stolen goods at your nearest garage and pick which fence buys them. Your partner drives off and sells them for you. No more long drives across the map.",
-      "region": "Vice City",
-      "x": 80,
-      "y": 88,
-      "ax": 82,
-      "ay": 62,
-      "pro": true
-    },
-    {
-      "id": "b1",
-      "category": "shop",
-      "title": "Pay 'n' Spray, Hamlet",
-      "description": "Hot car? Drive in for a respray and the cops lose track of you. Pay 'n' Spray also repairs cars and registers ones you want to keep. 19 shops across Leonida, 5 around Vice City.",
-      "region": "Vice City",
-      "x": 64,
-      "y": 86,
-      "ax": 60,
-      "ay": 64.5
-    },
-    {
-      "id": "b2",
-      "category": "money",
-      "title": "Key Lento bank",
-      "description": "A small bank in the Keys, close to Jason's home. Low payout (about $5K–$20K) but a good first bank job. Bank cash comes out as marked bills, so sell it to a fence.",
-      "region": "Leonida Keys",
-      "x": 32,
-      "y": 92,
-      "ax": 30,
-      "ay": 77
-    },
-    {
-      "id": "b3",
-      "category": "shop",
-      "title": "Persistence Road Garage",
-      "description": "Garage in western Bellville, north of Vice City. Buy it through the Vice City Real Estate app once Chapter 2 unlocks it.",
-      "region": "Vice City",
-      "x": 70,
-      "y": 74,
-      "ax": 68,
-      "ay": 46
-    },
-    {
-      "id": "b4",
-      "category": "secret",
-      "title": "How to lose the cops",
-      "description": "Break line of sight first: get out of the search cones on your minimap. Then head to a Pay 'n' Spray and respray, or swap cars.",
-      "region": "Vice City",
-      "x": 72,
-      "y": 78,
-      "ax": 66,
-      "ay": 50.5
-    },
-    {
-      "id": "pro5",
-      "category": "money",
-      "title": "Bank job money route",
-      "description": "Leonida has 22 bank jobs: 14 small banks and 8 big vaults. Start small in the Keys, then work up to the big vaults in Ocean Beach and Downtown Vice City, which pay six figures. All bank cash is marked bills, and Yasmani in Little Cuba pays the most for them.",
-      "region": "Vice City",
-      "x": 82,
-      "y": 84,
-      "ax": 77,
-      "ay": 64,
-      "pro": true
-    },
-    {
-      "id": "pro6",
-      "category": "money",
-      "title": "Garage buying order",
-      "description": "Garages are the only property you can buy. From Chapter 2, open the Vice City Real Estate app. There are 8 for sale, from $4K to $40K (about $160K for all). Buy cheap ones first for storage, then a Vice City garage close to the action.",
-      "region": "Vice City",
-      "x": 74,
-      "y": 72,
-      "ax": 73,
-      "ay": 47.5,
-      "pro": true
-    },
-    {
-      "id": "pro7",
-      "category": "secret",
-      "title": "Bank cash, fast",
-      "description": "Don't drive marked bills around. Once Yasmani is unlocked in Chapter 3, drop the loot at your nearest garage and send it to him. Your partner sells it while you start the next job.",
-      "region": "Vice City",
-      "x": 79,
-      "y": 80,
-      "ax": 80,
-      "ay": 55,
-      "pro": true
-    },
-    {
-      "id": "d1",
-      "category": "secret",
-      "title": "Jason's cash stash",
-      "description": "Before you unlock the BuckMe bank app, hide cash under the loose floorboards in Jason's bedroom at his Key Lento stilt house. Walk into the bedroom and look for the prompt to inspect the floorboards.",
-      "region": "Leonida Keys",
-      "x": 27,
-      "y": 93,
-      "ax": 39,
-      "ay": 73.5
-    },
-    {
-      "id": "d2",
-      "category": "money",
-      "title": "Don't die holding cash",
-      "description": "Cash in your pocket is gone if you die or get busted. Deposit it in BuckMe (unlocks in Chapter 1) or at an ATM before any risky job. Heads up: Family Savings can't be withdrawn.",
-      "region": "Vice City",
-      "x": 75,
-      "y": 83,
-      "ax": 74,
-      "ay": 58
-    },
-    {
-      "id": "pro8",
-      "category": "secret",
-      "title": "Dye Pack Jammer first",
-      "description": "Don't rob a bank or payday loan store yet. Fences refuse marked bills until you get the Dye Pack Jammer from the Chapter 3 mission Credit Check (Meet Raul's Crew).",
-      "region": "Vice City",
-      "x": 77,
-      "y": 81,
-      "ax": 76,
-      "ay": 60,
-      "pro": true
-    },
-    {
-      "id": "pro9",
-      "category": "money",
-      "title": "Vault payday",
-      "description": "Big bank vaults pay up to about $205,000 in marked bills, but you get 4 wanted stars the moment you start. Have your escape car ready, then sell the bills to Yasmani in Little Cuba.",
-      "region": "Vice City",
-      "x": 81,
-      "y": 78,
-      "ax": 83,
-      "ay": 50,
-      "pro": true
-    },
-    {
-      "id": "pro10",
-      "category": "money",
-      "title": "Gang hideouts",
-      "description": "Yellow hideout icons on your map are gang stash houses (Illegal Operations). Each holds cash, jewelry or drugs, worth about $1,000 to $2,000 early on. Sell drugs and jewelry to a fence.",
-      "region": "Leonida Keys",
-      "x": 31,
-      "y": 93,
-      "ax": 17,
-      "ay": 82.5,
-      "pro": true
-    },
-    {
-      "id": "pro11",
-      "category": "secret",
-      "title": "Crack any store safe",
-      "description": "Safe codes are random every time, so online code lists won't work. Look for a sticky note, papers or a computer screen in the back office, check downed guards, or make staff tell you.",
-      "region": "Vice City",
-      "x": 67,
-      "y": 87,
-      "ax": 61,
-      "ay": 61,
-      "pro": true
-    },
-    {
-      "id": "d3",
-      "category": "secret",
-      "title": "Red stars aren't safe",
-      "description": "Red stars mean you escaped the chase but you're still inside the police search area. Leave the red zone on your map, change clothes or swap cars, and don't come back to that block until it fades.",
-      "region": "Vice City",
-      "x": 74,
-      "y": 82,
-      "ax": 67,
-      "ay": 57
-    },
-    {
-      "id": "d4",
-      "category": "secret",
-      "title": "Sell early, Keys fences close",
-      "description": "Brian and Donnie, the first fences in the Keys, are early-story only and pay very low. Don't stockpile loot for them; Dunk, Tyrone and Yasmani stay open for good.",
-      "region": "Leonida Keys",
-      "x": 33,
-      "y": 94,
-      "ax": 35,
-      "ay": 77
-    },
-    {
-      "id": "pro12",
-      "category": "money",
-      "title": "Hideout drugs to Tyrone",
-      "description": "Drugs you take from gang hideouts sell best to Tyrone in La Perle (unlocks in Chapter 3), who pays the top rate for narcotics. Early fences pay low for the same bag.",
-      "region": "Vice City",
-      "x": 76,
-      "y": 79,
-      "ax": 71,
-      "ay": 52,
-      "pro": true
-    },
-    {
-      "id": "pro13",
-      "category": "money",
-      "title": "Jewelry to Yasmani",
-      "description": "Jewelry store robberies open through Yasmani's jobs in Chapter 3, and Yasmani in Little Cuba pays the top rate for jewelry. Don't sell to the nearest fence.",
-      "region": "Vice City",
-      "x": 80,
-      "y": 82,
-      "ax": 84,
-      "ay": 56,
-      "pro": true
-    },
-    {
-      "id": "pro14",
-      "category": "secret",
-      "title": "Moses only takes clean cars",
-      "description": "Moses in Port Gellhorn buys stolen cars only if they have no tracker. Scan the car with the WAINK app on your phone before you drive it over.",
-      "region": "Port Gellhorn",
-      "x": 21,
-      "y": 31,
-      "ax": 17,
-      "ay": 45,
-      "pro": true
-    },
-    {
-      "id": "pro15",
-      "category": "money",
-      "title": "Follow the cash truck in",
-      "description": "Bank vaults only open when a cash truck arrives, so wait for the delivery and enter the vault while it's open. Get the Dye Pack Jammer first (see the Dye Pack pin).",
-      "region": "Vice City",
-      "x": 79,
-      "y": 77,
-      "ax": 81,
-      "ay": 47,
-      "pro": true
+     "id": "s1",
+     "title": "Island Dreams (work for Kenton)",
+     "hint": "Chapter 1, Key Lento.",
+     "pinId": "k1"
     }
-  ],
-  "checklists": [
-    {
-      "id": "launch",
-      "title": "Launch Day Prep",
-      "description": "Get ready before Nov 19.",
-      "items": [
-        {
-          "id": "l1",
-          "title": "Pre-order or pre-load the game",
-          "hint": "Pre-loading means you can play the minute it unlocks."
-        },
-        {
-          "id": "l2",
-          "title": "Free up console storage",
-          "hint": "Open-world games are huge — clear space early."
-        },
-        {
-          "id": "l3",
-          "title": "Update your console and controller",
-          "hint": "Avoid a surprise system update at midnight."
-        },
-        {
-          "id": "l4",
-          "title": "Set up clip capture",
-          "hint": "Turn on game capture so you can save your best moments."
-        },
-        {
-          "id": "l5",
-          "title": "Check the Millionaire's Row map daily",
-          "hint": "New pins go live as players discover them."
-        }
-      ]
-    },
-    {
-      "id": "collectibles",
-      "title": "Collectibles",
-      "description": "Collectibles and treasure, region by region. New sets added as they are confirmed.",
-      "items": [
-        {
-          "id": "c1",
-          "title": "Unlock treasure diving with Kenton",
-          "hint": "Finish the Chapter 1 mission \"Island Dreams\".",
-          "pinId": "k1"
-        },
-        {
-          "id": "c2",
-          "title": "Dive your first shipwreck site",
-          "hint": "Look for purple chest icons around the Keys.",
-          "pinId": "k2"
-        }
-      ]
-    },
-    {
-      "id": "story",
-      "title": "Story Missions",
-      "description": "Track your story progress, spoiler-free.",
-      "items": [
-        {
-          "id": "s1",
-          "title": "Island Dreams (work for Kenton)",
-          "hint": "Chapter 1, Key Lento.",
-          "pinId": "k1"
-        }
-      ]
-    }
-  ],
-  "guides": [
-    {
-      "id": "how",
-      "title": "How to use Millionaire's Row",
-      "summary": "Map, checklists and guides — and how they update.",
-      "readMinutes": 1,
-      "body": [
-        "The map shows every discovered location by category. Tap the filters at the top to show only what you’re hunting for, then tap a pin for details.",
-        "Checklists save your progress on this device. Tick items off as you go and watch your completion percentage climb.",
-        "Content updates live. As players discover new locations after Nov 19, they appear here without needing an app update."
-      ]
-    },
-    {
-      "id": "money-basics",
-      "title": "Money-making basics for open-world crime games",
-      "summary": "The principles that carry over to every game in the genre.",
-      "readMinutes": 3,
-      "body": [
-        "Big open-world crime games almost always reward the same habits. Until we confirm the specifics in-game, these are the safest bets:",
-        "• Finish story missions early — they usually unlock the best income sources.",
-        "• Invest in businesses or properties when they appear; passive income adds up.",
-        "• Don’t overspend on cars and outfits in the first hours.",
-        "• Save before risky jobs so a failed attempt doesn’t cost you.",
-        "We’ll replace this with tested, game-specific methods as soon as the game is out."
-      ]
-    },
-    {
-      "id": "best-money",
-      "title": "Fastest money methods (tested)",
-      "summary": "Ranked by cash per hour, updated weekly after launch.",
-      "readMinutes": 5,
-      "pro": true,
-      "body": [
-        "Available after launch. Pro members get each update first."
-      ]
-    }
-  ]
+   ]
+  }
+ ],
+ "guides": [
+  {
+   "id": "how",
+   "title": "How to use Millionaire's Row",
+   "summary": "Map, checklists and guides — and how they update.",
+   "readMinutes": 1,
+   "body": [
+    "The map shows every discovered location by category. Tap the filters at the top to show only what you’re hunting for, then tap a pin for details.",
+    "Checklists save your progress on this device. Tick items off as you go and watch your completion percentage climb.",
+    "Content updates live. As players discover new locations after Nov 19, they appear here without needing an app update."
+   ]
+  },
+  {
+   "id": "money-basics",
+   "title": "Money-making basics for open-world crime games",
+   "summary": "The principles that carry over to every game in the genre.",
+   "readMinutes": 3,
+   "body": [
+    "Big open-world crime games almost always reward the same habits. Until we confirm the specifics in-game, these are the safest bets:",
+    "• Finish story missions early — they usually unlock the best income sources.",
+    "• Invest in businesses or properties when they appear; passive income adds up.",
+    "• Don’t overspend on cars and outfits in the first hours.",
+    "• Save before risky jobs so a failed attempt doesn’t cost you.",
+    "We’ll replace this with tested, game-specific methods as soon as the game is out."
+   ]
+  },
+  {
+   "id": "best-money",
+   "title": "Fastest money methods (tested)",
+   "summary": "Ranked by cash per hour, updated weekly after launch.",
+   "readMinutes": 5,
+   "pro": true,
+   "body": [
+    "Available after launch. Pro members get each update first."
+   ]
+  }
+ ]
 }
